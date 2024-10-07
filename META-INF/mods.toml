@@ -1,0 +1,65 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="epic_fight_stamina_plus"
+version="1.0.0"
+displayName="Epic Fight stamina plus"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="Noyji, MCreator, GPT 4o."
+description="Made in Mcreator)"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.epic_fight_stamina_plus]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.epic_fight_stamina_plus]]
+    modId="vc_gliders"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.epic_fight_stamina_plus]]
+    modId="epicfight"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.epic_fight_stamina_plus]]
+    modId="vc_gliders"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.epic_fight_stamina_plus]]
+    modId="use_compiled_mods"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.epic_fight_stamina_plus]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.epic_fight_stamina_plus]]
+    modId="epicfight"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
